@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filelist>
+<file id="12" name="FileOpen.etf" version="2018.5.7.144322"/>
+<file id="24" name="FileLinkRepair.etf" version="2014.2.11.1122"/>
+<file id="55" name="SoftBaseInfoForFileOpen.etf" version="2018.5.7.144346"/>
+<file id="58" name="GlobalConfig.etf" version="2017.4.25.154248"/>
+<file id="59" name="SoftVerInfo.etf" version="2018.5.11.1700"/>
+<file id="60" name="SoftPolicy.etf" version="2018.5.11.1654"/>
+<file id="74" name="UninstallScan.xml" version="2014.4.16.29239"/>
+<file id="75" name="BlueList.lis" version="2014.4.16.29799"/>
+<file id="105" name="UninstallScan.etf" version="2018.4.3.182223"/>
+</filelist>

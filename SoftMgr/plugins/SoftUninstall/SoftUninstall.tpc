@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tpc version="1.0.0">
+<plugin name="SoftUninstall" version="1.0">
+	<info />
+</plugin>
+
+
+  <file-systems>
+    <file-system name="@thisbundle:" path="SoftUninstall"/>
+    <file-system name="@thisxtml:" path="@thisbundle:Xtml"/>
+    <!-- <file-system name="systheme:" path="@thisbundle:res"/> -->
+    <file-system name="@thisres:" path="@thisbundle:res"/>
+    <file-system name="Common:" path="..\..\QQPCCommonMgr"/>
+    <file-system name="@commonres:" path="Common:res"/> 
+ </file-systems>
+  <core-configs>
+  </core-configs>
+  <gf-config>
+         <themes>
+				<theme file="@commonres:Config\\Theme.xml"/>
+        </themes>
+        <configs>
+		       <config file="@thisres:Config\\SoftUnistallConfig.xml"/>
+         </configs>	
+  </gf-config>
+  <i18n-config  path="@thisbundle:">
+    <locale id="2052" />
+     <StringBundle>
+      <configfile name="SoftUninstall.xml" />
+     </StringBundle>
+  </i18n-config>
+</tpc>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无法加载 - QQ电脑管家</title>
+		<meta name="author" content="yongdongwei" />
+		<style type="text/css">
+		body{background-color:#FFFFFF;font: 16px/15px "微软雅黑",tahoma;}
+		.wrap{height: 510px;width: 754px;overflow:hidden;margin:0 auto;}
+		.banner{width:527px;height:267px;margin:84px auto 0;overflow:hidden;}
+		.text{width:527px;height:30px;margin:0 auto;text-align:center;color:#9c978e;margin-top:25px;line-height:30px;}
+		.text a{color:#1e85da;text-decoration: none;}
+		.text a:hover{color:#1e85da;text-decoration: none;}
+		.text a:active{color:#1e85da;text-decoration: none;}
+		</style>
+		
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="banner" id="banner"><img src="image/net_err.jpg"></div>
+			<div class="text">网络出问题了，<a href="javascript: window.external.Refresh();" hidefocus=true>刷新一下</a>把外星人送回家吧~</div>
+		</div>
+		<script type="text/javascript">
+//		var h = (typeof window.innerHeight != 'undefined' ? window.innerHeight : document.body.offsetHeight);
+		var theWidth, theHeight;
+		// Window dimensions:
+		if (window.innerWidth) {
+			theWidth=window.innerWidth;
+		}
+		else if (document.documentElement && document.documentElement.clientWidth) {
+			theWidth=document.documentElement.clientWidth;
+		}
+		else if (document.body) {
+			theWidth=document.body.clientWidth;
+		}
+		if (window.innerHeight) {
+			theHeight=window.innerHeight;
+		}
+		else if (document.documentElement && document.documentElement.clientHeight) {
+			theHeight=document.documentElement.clientHeight;
+		}
+		else if (document.body) {
+			theHeight=document.body.clientHeight;
+		}
+		if(theHeight < 500) {
+			document.getElementById('banner').style.marginTop = '30px';
+		}
+		</script>
+    </body>
+</html>

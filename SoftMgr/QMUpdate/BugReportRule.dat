@@ -1,0 +1,52 @@
+<bugreportctrl nModuleCnt="">
+	<module Name="TSVulFW.dat" IsShowUI="0" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+	<module Name="QMLspPing.exe" IsShowUI="0" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+	<module Name="QMSignScan.exe" IsShowUI="0" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+	<module Name="TSWebMon.dat" IsShowUI="0" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+	<module Name="TSWebDownLoadProtect.dll" IsShowUI="0" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+	<module Name="QQPCExternal.exe" IsShowUI="0" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+	<module Name="QQPCSoftGame.exe" IsShowUI="1" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+	<module Name="QQPCMgrUpdate.exe" IsShowUI="1" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+        <module Name="QBox.exe" IsShowUI="1" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+        <module Name="QBoxTransfer.dll" IsShowUI="1" IsUpload="1">
+		<ModuleFilter nCnt="">
+			<FilterModuleName></FilterModuleName>
+		</ModuleFilter>
+	</module>
+</bugreportctrl>
